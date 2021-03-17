@@ -1,5 +1,17 @@
 #README.md
 
+Prerequisitos 
+
+En la máquina se debe tener instaladas las herramientas necesarias ejecutar la automatización desde la linea de comandos.
+
+Google Chrome
+Java 1.8 y SDK, aquí se debe configurar las variables de entorno
+Gradle, aquí se debe configurar las variables de entorno
+
+Comando para ejecutar la automatización
+
+gradlew clean test --tests=*ShopperWeb* aggregate --info
+
 #Resumen de codificación
 
 La automatizacion se realiza en JAVA bajo los patrones de Screen play, se utiliza Gherkin y cucumber para la definicion de las historias de usuario
